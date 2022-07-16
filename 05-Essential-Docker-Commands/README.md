@@ -22,5 +22,6 @@
 | docker version | Show the Docker version information |
 
 # run and interact with the Ubuntu container
-docker run --name container-name -it ubuntu bash \n
-docker start container-id -i
+docker run --name \<container-name\> -it ubuntu bash
+
+docker start \<container-id\> -i

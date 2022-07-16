@@ -20,3 +20,7 @@
 | docker stats | Display a live stream of container(s) resource usage statistics |
 | docker top container-id or name | Display the running processes of a container |
 | docker version | Show the Docker version information |
+
+# run and interact with the Ubuntu container
+docker run --name <container-name> -it ubuntu bash
+docker start <container-id> -i
